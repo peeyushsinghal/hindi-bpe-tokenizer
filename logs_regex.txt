@@ -1,0 +1,64 @@
+Sample text:  आवेदन करने
+Using regex string:  r"""'s|'t|'re|'ve|'m|'ll|'d| ?\p{N}+| ?(?:[\u0904-\u0939\u093d-\u093d\u0950-\u0950\u0958-\u0961\u0970-\u097f\ua8f2-\ua8fe\U00011b00-\U00011b09\u1cd3-\u1cd3\u1ce9-\u1cec\u1cee-\u1cf3\u1cf5-\u1cf6\u1cfa-\u1cfa][\u0900-\u0903\u093a-\u093c\u093e-\u094f\u0951-\u0957\u0962-\u0963\ua8e0-\ua8f1\ua8ff-\ua8ff\u1cd0-\u1cd2\u1cd4-\u1ce8\u1ced-\u1ced\u1cf4-\u1cf4\u1cf7-\u1cf9]*)+| ?\p{L}+| ?[^\s\p{L}\p{N}]+|\s+(?!\S)|\s+"""
+Tokens length (initial):  3480023  tokens unique:  173
+Example tokens:  2325 क 2404 ।
+Training tokenizer....
+Iteration 100: compression ratio: 3.44X                                                                                                      
+Iteration 200: compression ratio: 4.02X                                                                                                      
+Iteration 300: compression ratio: 4.37X                                                                                                      
+Iteration 400: compression ratio: 4.65X                                                                                                      
+Iteration 500: compression ratio: 4.88X                                                                                                      
+Iteration 600: compression ratio: 5.09X                                                                                                      
+Iteration 700: compression ratio: 5.26X                                                                                                      
+Iteration 800: compression ratio: 5.42X                                                                                                      
+Iteration 900: compression ratio: 5.56X                                                                                                      
+Iteration 1000: compression ratio: 5.69X                                                                                                     
+Iteration 1100: compression ratio: 5.81X                                                                                                     
+Iteration 1200: compression ratio: 5.93X                                                                                                     
+Iteration 1300: compression ratio: 6.03X                                                                                                     
+Iteration 1400: compression ratio: 6.14X                                                                                                     
+Iteration 1500: compression ratio: 6.23X                                                                                                     
+Iteration 1600: compression ratio: 6.32X                                                                                                     
+Iteration 1700: compression ratio: 6.41X                                                                                                     
+Iteration 1800: compression ratio: 6.50X                                                                                                     
+Iteration 1900: compression ratio: 6.58X                                                                                                     
+Iteration 2000: compression ratio: 6.65X                                                                                                     
+Iteration 2100: compression ratio: 6.72X                                                                                                     
+Iteration 2200: compression ratio: 6.79X                                                                                                     
+Iteration 2300: compression ratio: 6.86X                                                                                                     
+Iteration 2400: compression ratio: 6.93X                                                                                                     
+Iteration 2500: compression ratio: 6.99X                                                                                                     
+Iteration 2600: compression ratio: 7.05X                                                                                                     
+Iteration 2700: compression ratio: 7.11X                                                                                                     
+Iteration 2800: compression ratio: 7.17X                                                                                                     
+Iteration 2900: compression ratio: 7.22X                                                                                                     
+Iteration 3000: compression ratio: 7.28X                                                                                                     
+Iteration 3100: compression ratio: 7.33X                                                                                                     
+Iteration 3200: compression ratio: 7.39X                                                                                                     
+Iteration 3300: compression ratio: 7.44X                                                                                                     
+Iteration 3400: compression ratio: 7.49X                                                                                                     
+Iteration 3500: compression ratio: 7.54X                                                                                                     
+Iteration 3600: compression ratio: 7.58X                                                                                                     
+Iteration 3700: compression ratio: 7.63X                                                                                                     
+Iteration 3800: compression ratio: 7.68X                                                                                                     
+Iteration 3900: compression ratio: 7.72X                                                                                                     
+Iteration 4000: compression ratio: 7.77X                                                                                                     
+Iteration 4100: compression ratio: 7.81X                                                                                                     
+Iteration 4200: compression ratio: 7.85X                                                                                                     
+Iteration 4300: compression ratio: 7.89X                                                                                                     
+Iteration 4400: compression ratio: 7.93X                                                                                                     
+Iteration 4500: compression ratio: 7.97X                                                                                                     
+Iteration 4600: compression ratio: 8.01X                                                                                                     
+Iteration 4700: compression ratio: 8.05X                                                                                                     
+Training tokenizer: 100%|████████████████████████████████████████████████████████████████████████████████| 4745/4745 [10:59<00:00,  7.20it/s]
+Training tokenizer completed
+
+=== Final Statistics ===
+Vocabulary size: 5001
+Initial tokens: 3,480,023
+Final tokens: 431,205
+Initial bytes: 13,920,092
+Final bytes: 1,724,820
+Token compression ratio: 8.07X
+Byte compression ratio: 129.13X
+Saved tokenizer to: model/hi_tokenizer_regex.json
